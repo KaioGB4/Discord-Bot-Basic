@@ -33,6 +33,10 @@ E pronto, seu bot já está iniciado com os comandos básicos pré-definidos.
 [![NodeJs](https://img.shields.io/badge/nodedotjs-000?style=for-the-badge&logo=nodedotjs&logoColor=4F0199)](https://nodejs.org/pt-br/docs)
 ![Dotenv](https://img.shields.io/badge/dotenv-000?style=for-the-badge&logo=nodedotjs&logoColor=4F0199)
 [![Discord.js](https://img.shields.io/badge/discord.js-000?style=for-the-badge&logo=discord&logoColor=4F0199)](https://discordjs.guide/#before-you-begin)
-## __**Entre em contato comigo**__
+# __**Sobre Mim**__
+| Hi, my name is Kaio and I'm a recent high school graduate. I am seeking knowledge and personal development in programming projects, especially learning front.
+
+__**If you like my projects and want to contact me, click on the links below**__
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=4F0199)](linkedin.com/in/kaio-grativol-baldo-071a74150/)
 [![Instagram](https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram&logoColor=4F0199)](https://www.instagram.com/kaiull__/)
