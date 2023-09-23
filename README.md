@@ -4,7 +4,7 @@
 * Código base para a construção de um bot de discord.
 
 1. O comando na pasta ***commands*** é apenas para demonstração do funcionamento do bot.
-   - Para acrescentar um comando na pasta comando siga 
+   - Para acrescentar um comando na pasta comando siga a documentação do discord.js no final do Readme
 ##  __**Como utilizar?**__
 1.  Para iniciar a utilização é necessária a instalação do framework Node.Js(Disponível na documentação final), logo após o segundo passo é se dirigir a pasta aonde foi baixado o código fonte desse repositório, ao encontrar, acesse a pasta **./config** clique com um botão direito e inicialize um terminal CMD (Com privilégios de administrador) nesse local e logo após digite o comando:
 ```
