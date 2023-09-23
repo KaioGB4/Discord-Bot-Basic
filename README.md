@@ -4,9 +4,9 @@
 * Código base para a construção de um bot de discord.
 
 1. O comando na pasta ***commands*** é apenas para demonstração do funcionamento do bot.
-   - Para acrescentar um comando na pasta comando siga a documentação do discord.js no final do Readme
+   - Para acrescentar um comando na pasta comando siga a documentação do discord.js no final do Readme.
 ##  __**Como utilizar?**__
-1.  Para iniciar a utilização é necessária a instalação do framework Node.Js(Disponível na documentação final), logo após o segundo passo é se dirigir a pasta aonde foi baixado o código fonte desse repositório, ao encontrar, acesse a pasta **./config** clique com um botão direito e inicialize um terminal CMD (Com privilégios de administrador) nesse local e logo após digite o comando:
+1.  Para iniciar a utilização é necessária a instalação do framework Node.Js(Disponível na documentação final), logo após o segundo passo é se dirigir a pasta aonde foi baixado o código fonte desse repositório, ao encontrar, acesse a pasta **./config** clique com um botão direito e inicialize um terminal CMD (Com privilégios de administrador) nesse local e logo após digite o comando :
 ```
 ~ npm init
 ```
@@ -15,7 +15,7 @@
 ~ npm install discord.js
 ~ npm install dotenv
 ```
-3. Após instalar todas as bibliotecas e o framework necessário, é necessário se criar o arquivo **.env** na pasta config e preencher as informações necessárias com as do seu bot disponiveís no portal do desenvolvedor do discord, essas são:
+3. Após instalar todas as bibliotecas e o framework necessário, é necessário se criar o arquivo **.env** na pasta config e preencher as informações necessárias com as do seu bot disponiveís no portal do desenvolvedor do discord, essas são :
 ```javascript
  TOKEN=INSIRA_AQUI_SEU_TOKEN
  CLIENT_ID=INSIRA_AQUI_SEU_CLIENT_ID
@@ -28,6 +28,19 @@
 ~ node index.js
 ```
 E pronto, seu bot já está iniciado com os comandos básicos pré-definidos.
+## __**Como registrar os comandos no seu Bot**__
+1. Esse bot trabalha registrando comandos mediante ao que você cria, uma vez registrado o comando não precisará ser mais registrado nenhuma vez
+   - Para registrar os seus comandos crie um terminal dentro da pasta **config** e execute o seguinte comando:
+
+   ```
+   node deploy-commands.js
+   ```
+   - Executando esse comando seus comandos criados serão registrados automaticamente
+2. Além disso é importante dizer que para o comando ser registrado com sucesso é necessário ele estar dentro da pasta **commands** em uma categoria, ou seja dentro da pasta crie outra pasta que seja a categoria do seu comando por exemplo um comando de moderação o caminho ficará assim:
+```
+C:\Users\Kaio\Programação\bot-discord\config\commands\moderation
+``` 
+   - Dentro da pasta criada insira seu arquivo JS com o código do seu comando e depois repita o passo 1 para registrar o comando. 
 ## __**Tecnologias Usadas e Links**__
 [![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=4F0199)](https://www.devmedia.com.br/guia/javascript/34372)
 [![NodeJs](https://img.shields.io/badge/nodedotjs-000?style=for-the-badge&logo=nodedotjs&logoColor=4F0199)](https://nodejs.org/pt-br/docs)
